@@ -1,3 +1,8 @@
+There are two code files
+1) covid_analysis-part1.ipynb
+2) covid_analysis-part2.ipynb
+
+
 # COVID 19 ANALYSIS
 
 ## Tweets Distribution across channels
