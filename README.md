@@ -1,14 +1,9 @@
-COVID 19 ANALYSIS
+# COVID 19 ANALYSIS
 
-**a)**
+## Tweets Distribution across channels
 ![alt_text](images/histogram.png "image_tooltip")
 
-
-Note: As this picture is unclear, have attached the graph in the folder.
-
-**b)  **
-
-
+## Major source of OSM
 <table>
   <tr>
    <td><strong>Category</strong>
@@ -47,7 +42,7 @@ Note: As this picture is unclear, have attached the graph in the folder.
 
 The major information source in the dataset in terms of OSM is <span style="text-decoration:underline;">twitter with 16358 samples</span>, followed by <span style="text-decoration:underline;">Facebook with 267 samples</span>.While in other sources it is the <span style="text-decoration:underline;"> Government of Gujarat with 574 samples</span> then <span style="text-decoration:underline;">Ministry of Health & Family Welfare with 267 samples.</span>
 
-**c)** List of 10 most recent posts.
+## Ten most recent posts.
 
 
 <table>
@@ -152,13 +147,15 @@ Kasargod -1
 </table>
 
 
-**d)** The most prominent words in the word-cloud are:  \
+## Wordcloud
+The most prominent words in the word-cloud are:  \
 covid19, tested positive, case, coronavirus, today, new, update, number, district, travel, history, Gujarat
 
 The following is an image of the word-cloud:
 ![alt_text](images/wordcloud.png "image_tooltip")
 
-**e)** The total tweets from verified accounts are 128. The total tweets from unverified accounts are 42. For the unverified accounts the following statistics have been accumulated:
+## PII
+The total tweets from verified accounts are 128. The total tweets from unverified accounts are 42. For the unverified accounts the following statistics have been accumulated:
 
 Average statuses per person are approximately 43365.
 
@@ -235,7 +232,7 @@ Total statuses: 1623
     This user is currently the Principal Secretary at the Health Department of Bihar. He is also a part of the IAS. His account has an extremely high number of followers @ 65.4k followers. All his corona virus posts are well structured into tables and one his latest posts has been retweeted by a verified account. We can believe the information shared by him.
 
 
-**f) **We identified the PII information from the tweets using the ‘re’ library in python. We detected age, gender, e-mail address, location and phone numbers included in the posts. The following tweets are some of the tweets that were detected.
+identified the PII information from the tweets using the ‘re’ library in python. Detected age, gender, e-mail address, location and phone numbers included in the posts. The following tweets are some of the tweets that were detected.
 
 
 1. Out of the 7 deaths today, 5 were men and 2 were women. 4 of them aged over 60 years and 3 were from the age group… [https://t.co/bF2m13UNZI](https://t.co/bF2m13UNZI)
@@ -276,6 +273,6 @@ Manjit Kaur (55 years)… [https://t.co/LAopy9tHDu](https://t.co/LAopy9tHDu)
 A Muslim man, 35 years old from V. Cheeda of tehsil Baghapurana tests +ve. Not strictly… [https://t.co/0pHeehZPsy](https://t.co/0pHeehZPsy)
 14. BREAKING-- 7 more test cluster POSITIVE in Mohali district. 7 more positive cases from village Jawaharpur, tehsil… [https://t.co/nKEFPnwMKD](https://t.co/nKEFPnwMKD)
 
-**g)  **Percentage of tweets that matched with the location column = 25.806784 
-     Percentage of tweets that matched with the notes column  = 12.227034
-**h) **The user @ANI has the maximum number of COVID19 posts. It is a verified handle.
+### Percentage of tweets that matched with the location column = 25.806784 
+### Percentage of tweets that matched with the notes column  = 12.227034
+## The user @ANI has the maximum number of COVID19 posts. It is a verified handle.
