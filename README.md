@@ -156,8 +156,9 @@ Kasargod -1
 covid19, tested positive, case, coronavirus, today, new, update, number, district, travel, history, Gujarat
 
 The following is an image of the word-cloud:
+![alt_text](images/wordcloud.png "image_tooltip")
 
-**e) **The total tweets from verified accounts are 128. The total tweets from unverified accounts are 42. For the unverified accounts the following statistics have been accumulated:
+**e)** The total tweets from verified accounts are 128. The total tweets from unverified accounts are 42. For the unverified accounts the following statistics have been accumulated:
 
 Average statuses per person are approximately 43365.
 
@@ -234,8 +235,7 @@ Total statuses: 1623
     This user is currently the Principal Secretary at the Health Department of Bihar. He is also a part of the IAS. His account has an extremely high number of followers @ 65.4k followers. All his corona virus posts are well structured into tables and one his latest posts has been retweeted by a verified account. We can believe the information shared by him.
 
 
-**f) **We identified the PII information from the tweets using the ‘re’ library in python. We detected age, gender, e-mail address, location and phone numbers included in the posts. The following tweets are some of the tweets that were detected. The PII information has been highlighted in pink.
-
+**f) **We identified the PII information from the tweets using the ‘re’ library in python. We detected age, gender, e-mail address, location and phone numbers included in the posts. The following tweets are some of the tweets that were detected.
 
 
 1. Out of the 7 deaths today, 5 were men and 2 were women. 4 of them aged over 60 years and 3 were from the age group… [https://t.co/bF2m13UNZI](https://t.co/bF2m13UNZI)
